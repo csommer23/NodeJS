@@ -4,14 +4,13 @@ const http = require('http');
 const queryString = require('querystring');
 
 const postData = queryString.stringify({
-    name: 'Cristiano',
-    type: 'aluno'
+    name: 'Cristiano Sommer',
 });
 
 const options = {
     host: 'webschool-io.herokuapp.com',
-    method: 'POST',
-    path: '/api/pokemons',
+    method: 'PUT',
+    path: '/api/pokemons/58142c5a449ba10011f0fd67',
     headers: {
         'Content-Type': 'application/x-www-form-urlencoded',
         'Content-Length': postData.length
