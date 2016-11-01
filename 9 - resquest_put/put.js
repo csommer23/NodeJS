@@ -10,7 +10,7 @@ const postData = queryString.stringify({
 const options = {
     host: 'webschool-io.herokuapp.com',
     method: 'PUT',
-    path: '/api/pokemons/58142c5a449ba10011f0fd67',
+    path: '/api/pokemons/5817fda5ef7f810011c71e0d',
     headers: {
         'Content-Type': 'application/x-www-form-urlencoded',
         'Content-Length': postData.length
