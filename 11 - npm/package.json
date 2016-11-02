@@ -1,0 +1,22 @@
+{
+  "name": "fisrt",
+  "version": "0.0.1",
+  "description": "first projeto",
+  "main": "project-npm.js",
+  "scripts": {
+    "roda": "node script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/csommer23/"
+  },
+  "keywords": [
+    "npm",
+    "node"
+  ],
+  "author": "Cristiano Sommer",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^4.6.5"
+  }  
+}
