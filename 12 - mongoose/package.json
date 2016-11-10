@@ -1,0 +1,22 @@
+{
+  "name": "connect-mongoose",
+  "version": "0.0.1",
+  "description": "connection mongoose basic",
+  "main": "app.js",
+  "scripts": {
+    "test": "script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/csommer23"
+  },
+  "keywords": [
+    "node",
+    "mongoose"
+  ],
+  "author": "Cristiano Sommer",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "mongoose": "^4.6.6"
+  }
+}
