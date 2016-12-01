@@ -1,13 +1,13 @@
+const mongoose = require('./config');
 
-const _schema = require('./schema');
-const mongoose = _schema.mongoose;
+const schema = require('./schema')(mongoose);
 
-const data = {name: 'teste', age: 22};
+const data = {name: 'Sommer', age: 22};
 
-var Model = mongoose.model('peoples',_schema.schema);
-var _people = new Model(data);
+var model = mongoose.model('peoples',schema);
+var people = new model(data);
 
-_people.save((err,data) => {
+people.save((err,data) => {
     if(err) return console.log('error: ', err);
     console.log('insert: ',data);
 });
